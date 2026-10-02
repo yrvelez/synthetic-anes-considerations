@@ -1,0 +1,481 @@
+cell_id,PID,ideo,raceth,education,target,consideration_id,acceptance_prob
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C01",55
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C02",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C03",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C04",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C05",45
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C06",35
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C07",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C08",50
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C09",55
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C10",45
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C11",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C12",50
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C13",30
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C14",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C15",55
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C16",25
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C17",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C18",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C19",50
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C20",45
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C21",35
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C22",55
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C23",10
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C24",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C25",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C26",55
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C27",30
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C28",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C29",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Kamala Harris","C30",40
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C01",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C02",85
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C03",40
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C04",75
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C05",55
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C06",45
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C07",80
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C08",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C09",25
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C10",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C11",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C12",30
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C13",85
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C14",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C15",50
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C16",45
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C17",75
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C18",35
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C19",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C20",85
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C21",30
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C22",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C23",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C24",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C25",45
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C26",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C27",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C28",30
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C29",75
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Donald Trump","C30",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C01",45
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C02",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C03",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C04",25
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C05",75
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C06",85
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C07",50
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C08",80
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C09",35
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C10",55
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C11",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C12",40
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C13",20
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C14",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C15",30
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C16",75
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C17",50
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C18",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C19",85
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C20",35
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C21",75
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C22",85
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C23",40
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C24",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C25",90
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C26",40
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C27",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C28",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C29",20
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Joe Biden","C30",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C01",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C02",85
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C03",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C04",75
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C05",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C06",78
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C07",68
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C08",80
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C09",72
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C10",75
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C11",73
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C12",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C13",68
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C14",55
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C15",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C16",58
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C17",62
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C18",72
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C19",50
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C20",75
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C21",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C22",80
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C23",74
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C24",68
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C25",78
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C26",55
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C27",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C28",71
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C29",68
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","RFK Jr","C30",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C01",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C02",80
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C03",40
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C04",75
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C05",85
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C06",35
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C07",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C08",90
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C09",15
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C10",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C11",45
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C12",30
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C13",85
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C14",75
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C15",15
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C16",80
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C17",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C18",55
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C19",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C20",40
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C21",30
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C22",80
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C23",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C24",30
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C25",75
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C26",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C27",45
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C28",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C29",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","JD Vance","C30",50
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C01",45
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C02",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C03",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C04",35
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C05",80
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C06",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C07",30
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C08",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C09",75
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C10",45
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C11",25
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C12",55
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C13",20
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C14",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C15",58
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C16",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C17",50
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C18",55
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C19",30
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C20",50
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C21",75
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C22",40
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C23",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C24",55
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C25",55
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C26",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C27",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C28",25
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C29",50
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Tim Walz","C30",40
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C01",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C02",75
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C03",40
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C04",20
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C05",80
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C06",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C07",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C08",15
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C09",45
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C10",30
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C11",55
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C12",75
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C13",5
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C14",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C15",40
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C16",25
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C17",55
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C18",35
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C19",25
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C20",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C21",50
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C22",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C23",30
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C24",85
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C25",45
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C26",25
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C27",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C28",10
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C29",75
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Democratic Party","C30",25
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C01",50
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C02",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C03",20
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C04",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C05",45
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C06",80
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C07",90
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C08",55
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C09",75
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C10",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C11",80
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C12",30
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C13",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C14",70
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C15",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C16",55
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C17",40
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C18",95
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C19",45
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C20",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C21",30
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C22",75
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C23",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C24",40
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C25",50
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C26",60
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C27",35
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C28",65
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C29",10
+"CELL_0001","Independent","a moderate","Asian or Pacific Islander","some college, but no degree","Republican Party","C30",70
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C01",25
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C02",75
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C03",80
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C04",60
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C05",15
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C06",90
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C07",20
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C08",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C09",30
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C10",95
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C11",10
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C12",90
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C13",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C14",15
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C15",60
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C16",80
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C17",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C18",55
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C19",95
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C20",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C21",80
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C22",30
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C23",90
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C24",75
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C25",5
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C26",80
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C27",95
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C28",10
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C29",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Kamala Harris","C30",95
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C01",5
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C02",75
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C03",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C04",10
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C05",65
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C06",90
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C07",40
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C08",35
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C09",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C10",70
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C11",20
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C12",80
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C13",75
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C14",10
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C15",80
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C16",75
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C17",50
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C18",90
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C19",80
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C20",30
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C21",90
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C22",45
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C23",10
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C24",60
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C25",90
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C26",10
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C27",60
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C28",55
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C29",70
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Donald Trump","C30",80
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C01",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C02",20
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C03",40
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C04",75
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C05",10
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C06",95
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C07",60
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C08",25
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C09",70
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C10",15
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C11",55
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C12",80
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C13",45
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C14",45
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C15",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C16",15
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C17",90
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C18",25
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C19",10
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C20",65
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C21",50
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C22",30
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C23",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C24",75
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C25",90
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C26",75
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C27",60
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C28",15
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C29",90
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Joe Biden","C30",55
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C01",50
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C02",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C03",60
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C04",70
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C05",90
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C06",45
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C07",55
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C08",80
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C09",75
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C10",35
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C11",65
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C12",50
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C13",95
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C14",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C15",40
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C16",95
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C17",60
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C18",30
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C19",90
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C20",75
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C21",70
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C22",75
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C23",45
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C24",65
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C25",40
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C26",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C27",70
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C28",30
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C29",75
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","RFK Jr","C30",80
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C01",55
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C02",75
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C03",90
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C04",80
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C05",65
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C06",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C07",70
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C08",60
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C09",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C10",75
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C11",45
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C12",50
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C13",30
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C14",60
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C15",80
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C16",50
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C17",55
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C18",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C19",35
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C20",70
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C21",90
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C22",40
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C23",65
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C24",80
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C25",45
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C26",65
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C27",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C28",70
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C29",60
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","JD Vance","C30",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C01",65
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C02",45
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C03",10
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C04",70
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C05",60
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C06",25
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C07",75
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C08",15
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C09",5
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C10",80
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C11",30
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C12",40
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C13",90
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C14",75
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C15",55
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C16",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C17",65
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C18",10
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C19",95
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C20",60
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C21",10
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C22",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C23",40
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C24",70
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C25",95
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C26",50
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C27",15
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C28",95
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C29",80
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Tim Walz","C30",40
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C01",4
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C02",65
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C03",95
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C04",8
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C05",17
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C06",90
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C07",45
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C08",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C09",12
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C10",75
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C11",88
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C12",93
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C13",15
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C14",26
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C15",48
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C16",3
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C17",55
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C18",70
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C19",15
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C20",91
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C21",80
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C22",59
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C23",18
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C24",22
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C25",86
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C26",27
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C27",55
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C28",82
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C29",63
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Democratic Party","C30",3
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C01",20
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C02",65
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C03",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C04",35
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C05",75
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C06",60
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C07",55
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C08",90
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C09",15
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C10",25
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C11",40
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C12",80
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C13",50
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C14",60
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C15",45
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C16",30
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C17",95
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C18",20
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C19",65
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C20",55
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C21",85
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C22",30
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C23",25
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C24",90
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C25",40
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C26",20
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C27",70
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C28",45
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C29",75
+"CELL_0002","Republican","a conservative","Hispanic","a bachelor's degree or more","Republican Party","C30",55

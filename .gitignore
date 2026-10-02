@@ -1,0 +1,12 @@
+# licensed or restricted source data: say in README.md where to obtain it, never commit it
+external/
+inputs/*.csv
+inputs/*.sav
+inputs/*.dta
+inputs/*.xlsx
+.mplconfig/
+__pycache__/
+.Rhistory
+# local smoke tests, debug dumps and intermediate chunks
+data/scratch/
+.DS_Store

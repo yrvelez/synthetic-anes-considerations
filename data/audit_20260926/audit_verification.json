@@ -1,0 +1,27 @@
+{
+  "all_existing_inputs_unchanged": true,
+  "rfk_valid_truths_included": 99,
+  "valid_truths": 798,
+  "distribution_cells_checked": 64,
+  "max_metric_difference": 2.7533531010703882e-14,
+  "individual_metrics": {
+    "Bisbee et al. (2024)": {
+      "n": 798,
+      "rmse": 23.488839134997168,
+      "mae": 17.452380952380953,
+      "bias": 2.862155388471178
+    },
+    "Zaller 8->4": {
+      "n": 798,
+      "rmse": 24.79388719231543,
+      "mae": 18.11904761904762,
+      "bias": -0.03884711779448621
+    }
+  },
+  "test_suite": "7 integration tests passed",
+  "actual_source": {
+    "path": "anes_timeseries_2024_csv_20250808/anes_timeseries_2024_csv_20250808.csv",
+    "sha256": "cb518fa8e710da0231fe5e277f9090f08e006d49756b6f0e8f906a02c12185ea"
+  },
+  "repaired_evaluator_sha256": "ea779c6a1c875d3f06c861b7ad1b600f8041bcdf7704ee012b3e42d777eaf544"
+}

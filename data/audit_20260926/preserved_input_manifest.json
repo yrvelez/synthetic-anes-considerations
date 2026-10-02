@@ -1,0 +1,18 @@
+{
+  "compare_bisbee_zaller_report.R": {
+    "sha256": "6012066d5c24b1208cca986f2835837f49282c80fa1da56f37fec9c2a297b2ab",
+    "bytes": 11742
+  },
+  "data/raw/bisbee_vs_zaller_true84_n100_report.md": {
+    "sha256": "9303768cd040a636abdf201ac899af798412783600c81bfd77e8c771734f8a34",
+    "bytes": 8070
+  },
+  "data/raw/therm_ANES2024_bisbee_Gemini_bisbee_gemini_n300_c1.csv": {
+    "sha256": "9ecfa1c7567b44cbc4cf5b16def78b0a08027dcef67eea0d14d0db098b82367e",
+    "bytes": 857327
+  },
+  "data/raw/therm_ANES2024_zaller_Gemini_zaller_gemini_n100_true84.csv": {
+    "sha256": "9001accf58873ea4a5f0c1411c3434aec46d0488087298ff1cf0d5db732af150",
+    "bytes": 1401337
+  }
+}

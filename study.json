@@ -1,0 +1,120 @@
+{
+ "schema_version": 1,
+ "slug": "synthetic-anes-considerations",
+ "title": "Considerations-Based Synthetic Respondents and the Bisbee et al. (2024) Baseline: ANES 2024 Feeling Thermometers",
+ "authors": [
+  "Yamil R. Velez"
+ ],
+ "summary": "Compares two ways of generating synthetic ANES 2024 feeling-thermometer ratings with an LLM persona: direct generation following Bisbee et al. (2024), and a considerations-based pipeline after Zaller (1992) that samples 4 of 8 respondent-specific considerations into each response. Across 100 respondents, 8 targets and 2 draws, the baseline has slightly lower error (RMSE 23.5 vs 24.8; r 0.77 vs 0.74); the considerations pipeline has smaller mean bias (-0.04 vs 2.86) and a smaller average gap in target means (4.3 vs 5.1 points).",
+ "created": "2026-10-02",
+ "synthetic": false,
+ "design": {
+  "type": "methods_comparison",
+  "methods": [
+   "Direct persona-conditioned thermometer generation (Bisbee et al. 2024 prompt, updated for 2024)",
+   "Zaller 8->4: 8 ranked considerations per respondent and target, 4 sampled into each response draw"
+  ],
+  "benchmark": "Observed ANES 2024 Time Series pre-election feeling thermometers for the same respondents",
+  "metrics": [
+   "RMSE",
+   "MAE",
+   "bias",
+   "correlation",
+   "mean and SD gaps by target",
+   "total variation and Wasserstein-1 distance between raw draws and observed ratings",
+   "within-respondent draw variation"
+  ],
+  "n_raw": 100,
+  "n_analysis": 100,
+  "targets": [
+   "Kamala Harris",
+   "Donald Trump",
+   "Joe Biden",
+   "RFK Jr",
+   "JD Vance",
+   "Tim Walz",
+   "Democratic Party",
+   "Republican Party"
+  ],
+  "model": "Gemini Flash (generateContent API); 2 draws per respondent and target",
+  "unit": "respondent x target x draw (1,600 rows per method; 798 with a valid observed rating)"
+ },
+ "population": {
+  "country": "US",
+  "sample": "probability_sample"
+ },
+ "constructs": [
+  "silicon_sampling",
+  "survey_methodology",
+  "candidate_evaluation",
+  "affective_polarization"
+ ],
+ "keywords": [
+  "synthetic survey data",
+  "large language models",
+  "feeling thermometers",
+  "ANES 2024",
+  "considerations",
+  "receive-accept-sample"
+ ],
+ "registration": {
+  "status": "none"
+ },
+ "hypotheses": [],
+ "release_status": "draft",
+ "license": {
+  "code": "MIT",
+  "content": "CC-BY-4.0"
+ },
+ "provenance": {
+  "mode": "fully_agentic",
+  "human_steps": [],
+  "reviewer_pass": false,
+  "tool_version": "0.1.0",
+  "created": "2026-10-02"
+ },
+ "links": {
+  "folder": "https://github.com/yrvelez/synthetic-anes-considerations/tree/main",
+  "report": "https://github.com/yrvelez/synthetic-anes-considerations/blob/main/report.md",
+  "data": "https://github.com/yrvelez/synthetic-anes-considerations/tree/main/data"
+ },
+ "reproduce": {
+  "scripts": [
+   "scripts/02_compare.R"
+  ],
+  "outputs": [
+   "results/*.csv"
+  ]
+ },
+ "data_sources": [
+  {
+   "name": "ANES 2024 Time Series Study (August 8, 2025 release)",
+   "url": "https://electionstudies.org/data-center/2024-time-series-study/",
+   "path": "external/anes_timeseries_2024_csv_20250808/",
+   "redistributed": false
+  }
+ ],
+ "references": [
+  {
+   "key": "bisbee2024",
+   "doi": "10.1017/pan.2024.5",
+   "text": "Bisbee, J., J. D. Clinton, C. Dorff, B. Kenkel, and J. M. Larson. 2024. \"Synthetic Replacements for Human Survey Data? The Perils of Large Language Models.\" Political Analysis 32 (4): 401–416."
+  },
+  {
+   "key": "zaller1992",
+   "doi": "10.1017/CBO9780511818691",
+   "text": "Zaller, J. R. 1992. The Nature and Origins of Mass Opinion. Cambridge: Cambridge University Press."
+  },
+  {
+   "key": "zallerfeldman1992",
+   "doi": "10.2307/2111583",
+   "text": "Zaller, J., and S. Feldman. 1992. \"A Simple Theory of the Survey Response: Answering Questions versus Revealing Preferences.\" American Journal of Political Science 36 (3): 579–616."
+  },
+  {
+   "key": "anes2024",
+   "url": "https://electionstudies.org",
+   "text": "American National Election Studies. 2025. ANES 2024 Time Series Study Full Release [dataset and documentation]. August 8, 2025 version."
+  }
+ ],
+ "related": []
+}

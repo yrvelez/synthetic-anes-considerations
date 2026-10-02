@@ -1,0 +1,9 @@
+group,expected_respondents,valid_truth,missing_or_invalid_truth,baseline_matched,zaller_matched
+Democratic Party,100,100,0,100,100
+Donald Trump,100,100,0,100,100
+JD Vance,100,100,0,100,100
+Joe Biden,100,99,1,99,99
+Kamala Harris,100,100,0,100,100
+RFK Jr,100,99,1,99,99
+Republican Party,100,100,0,100,100
+Tim Walz,100,100,0,100,100

@@ -1,0 +1,3 @@
+model,rows,rmse,mae,bias,cor
+Bisbee et al. (2024),798,23.49,17.45,2.86,0.77
+Zaller 8->4,798,24.79,18.12,-0.04,0.74
