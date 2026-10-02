@@ -61,7 +61,7 @@
   "status": "none"
  },
  "hypotheses": [],
- "release_status": "draft",
+ "release_status": "released",
  "license": {
   "code": "MIT",
   "content": "CC-BY-4.0"
@@ -182,5 +182,6 @@
    "text": "American National Election Studies. 2025. ANES 2024 Time Series Study Full Release [dataset and documentation]. August 8, 2025 version."
   }
  ],
- "related": []
+ "related": [],
+ "released": "2026-10-02"
 }
