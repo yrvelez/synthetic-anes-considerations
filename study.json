@@ -67,8 +67,14 @@
   "content": "CC-BY-4.0"
  },
  "provenance": {
-  "mode": "fully_agentic",
-  "human_steps": [],
+  "mode": "human_reviewed",
+  "human_steps": [
+   {
+    "step": "Read report.md and approved the package",
+    "by": "Yamil R. Velez",
+    "date": "2026-10-02"
+   }
+  ],
   "reviewer_pass": false,
   "tool_version": "0.1.0",
   "created": "2026-10-02"

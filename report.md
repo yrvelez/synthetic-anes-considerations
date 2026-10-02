@@ -1,6 +1,6 @@
 # Considerations-Based Synthetic Respondents and the Bisbee et al. (2024) Baseline: ANES 2024 Feeling Thermometers
 
-> **Provenance: FULLY AGENTIC — no human review recorded.** Hand-built `methods_comparison` package, filedrawer 0.1.0, 2026-10-02. Human steps recorded: 0. Release status: **draft**.
+> **Provenance: HUMAN REVIEWED — see provenance.human_steps.** Hand-built `methods_comparison` package, filedrawer 0.1.0, 2026-10-02. Human steps recorded: 1. Release status: **draft**.
 
 ## Summary
 
