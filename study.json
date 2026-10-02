@@ -36,7 +36,7 @@
    "Democratic Party",
    "Republican Party"
   ],
-  "model": "Gemini Flash (generateContent API); 2 draws per respondent and target",
+  "model": "Gemini Flash (generateContent API, alias gemini-flash-latest as of April 14-15, 2026); 2 draws per respondent and target",
   "unit": "respondent x target x draw (1,600 rows per method; 798 with a valid observed rating)"
  },
  "population": {
@@ -77,6 +77,66 @@
   "folder": "https://github.com/yrvelez/synthetic-anes-considerations/tree/main",
   "report": "https://github.com/yrvelez/synthetic-anes-considerations/blob/main/report.md",
   "data": "https://github.com/yrvelez/synthetic-anes-considerations/tree/main/data"
+ },
+ "runs": {
+  "timezone": "America/New_York (EDT)",
+  "source": "creation and last-modification times of each run's output files; the scripts do not log timestamps",
+  "items": [
+   {
+    "run": "considerations pipeline, local model (LM Studio)",
+    "label": "ras_prob",
+    "start": "2026-04-14T07:05",
+    "end": "2026-04-14T07:37"
+   },
+   {
+    "run": "Bisbee et al. (2024) baseline, n=300 (chunk c1 is the primary baseline)",
+    "label": "bisbee_gemini_n300",
+    "start": "2026-04-14T15:06",
+    "end": "2026-04-14T15:22"
+   },
+   {
+    "run": "Zaller 8->4, n=300",
+    "label": "zaller_gemini_n300",
+    "start": "2026-04-14T15:14",
+    "end": "2026-04-14T16:15"
+   },
+   {
+    "run": "Zaller 8->4, n=100, earlier sampler",
+    "label": "zaller_gemini_n100_true84_buggy_sampler",
+    "start": "2026-04-14T17:03",
+    "end": "2026-04-14T17:24"
+   },
+   {
+    "run": "Zaller 8->4, n=100 (primary)",
+    "label": "zaller_gemini_n100_true84",
+    "start": "2026-04-14T16:23",
+    "end": "2026-04-14T20:33"
+   },
+   {
+    "run": "considerations pipeline variant 1",
+    "label": "ras_n100_v1",
+    "start": "2026-04-14T22:20",
+    "end": "2026-04-15T07:58"
+   },
+   {
+    "run": "considerations pipeline variant 2",
+    "label": "ras_n100_v2_blocked",
+    "start": "2026-04-15T10:21",
+    "end": "2026-04-15T10:53"
+   },
+   {
+    "run": "comparison script audit",
+    "label": "audit_20260926",
+    "start": "2026-09-26",
+    "end": "2026-09-26"
+   },
+   {
+    "run": "package assembled; results/ rebuilt from saved outputs",
+    "label": "package",
+    "start": "2026-10-02",
+    "end": "2026-10-02"
+   }
+  ]
  },
  "reproduce": {
   "scripts": [

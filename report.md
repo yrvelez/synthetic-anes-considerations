@@ -30,6 +30,10 @@ predicted and observed target means (4.3 vs. 5.1 points). Neither approach recov
   shared per-target universe; the universe file for this run is not among the saved outputs.
 - **Model and draws.** Gemini Flash through the `generateContent` API, 2 independent draws per respondent
   and target for each method (1,600 rows per method).
+- **When.** All model outputs were generated on April 14–15, 2026; the primary comparison uses the
+  baseline run of April 14, 15:06–15:22 EDT, and the considerations run of the same day (considerations
+  16:23–17:03, responses 20:10–20:33 EDT). The comparison script was audited on September 26, 2026. See
+  [When the runs happened](#when-the-runs-happened).
 - **Benchmark.** The respondent's observed pre-election thermometer. 798 of 800 respondent-target cells
   have a valid observed rating (one missing for Joe Biden, one for RFK Jr.); predictions are the mean of the
   two draws. Respondents are weighted equally, so nothing here estimates weighted national quantities.
@@ -79,6 +83,24 @@ reports predate the September 2026 audit of the comparison script, which fixed a
 dropped every RFK Jr. row (they report 699 rather than 798 cells). Their numbers are not comparable to the
 results above; the audit and the corrected script are in `data/audit_20260926/`.
 
+## When the runs happened
+
+Times are US Eastern (EDT) and come from the creation and last-modification times of each run's output
+files, which the scripts write as generation proceeds; the scripts do not log timestamps themselves.
+Because `gemini-flash-latest` is an alias, these dates are the best record of which Gemini model answered.
+
+| Run | Outputs in `data/raw/` | Generated |
+| --- | --- | --- |
+| Considerations pipeline on a local model (LM Studio; script default `google/gemma-4-31b`) | `*_RAS_ras_prob.csv` | Apr 14, 2026, 07:05–07:37 |
+| Bisbee et al. (2024) baseline, 300 respondents in three chunks (chunk 1 is the primary baseline) | `therm_ANES2024_bisbee_Gemini_bisbee_gemini_n300_{c1,merged}.csv` | Apr 14, 2026, 15:06–15:22 |
+| Zaller 8→4, 300 respondents in three chunks | `*_zaller_gemini_n300_merged.csv` | Apr 14, 2026, 15:14–16:15 |
+| Zaller 8→4, 100 respondents, earlier sampler | `therm_..._true84_buggy_sampler.csv` | Apr 14, 2026, 17:03–17:24 |
+| Zaller 8→4, 100 respondents (primary) | `*_zaller_gemini_n100_true84.csv` | Apr 14, 2026, considerations 16:23–17:03, responses 20:10–20:33 |
+| Considerations pipeline variant 1 | `*_ras_n100_v1.csv` | Apr 14, 2026, 22:20 – Apr 15, 2026, 07:58 |
+| Considerations pipeline variant 2 | `*_ras_n100_v2_blocked.csv` | Apr 15, 2026, 10:21–10:53 |
+| Comparison script audit | `data/audit_20260926/` | Sep 26, 2026 |
+| Package assembled; `results/` rebuilt from saved outputs | `results/` | Oct 2, 2026 |
+
 ## Limitations
 
 - One model family (Gemini Flash), one survey year, one question format, and 100 respondents. The
@@ -86,7 +108,8 @@ results above; the audit and the corrected script are in `data/audit_20260926/`.
 - Two draws per respondent and target are enough to describe draw-to-draw movement but not to estimate a
   respondent-specific response distribution.
 - The model string sent to the API is not stored in the saved outputs; the scripts default to
-  `gemini-flash-latest`, an alias whose underlying model changes over time.
+  `gemini-flash-latest`, an alias whose underlying model changes over time. Rerunning the generation
+  scripts today may reach a different model than the one that answered in April 2026.
 - No uncertainty intervals are reported; differences of a point or two in RMSE between methods should not
   be read as reliable.
 
