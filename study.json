@@ -37,7 +37,16 @@
    "Republican Party"
   ],
   "model": "Gemini Flash (generateContent API, alias gemini-flash-latest as of April 14-15, 2026); 2 draws per respondent and target",
-  "unit": "respondent x target x draw (1,600 rows per method; 798 with a valid observed rating)"
+  "unit": "respondent x target x draw (1,600 rows per method; 798 with a valid observed rating)",
+  "sample_kind": "synthetic",
+  "synthetic": {
+   "model": "Gemini (persona generation; exact version recorded in the run files under data/raw)",
+   "benchmark_human_study_url": "https://electionstudies.org/data-center/2024-time-series-study/",
+   "benchmarked": true,
+   "note": "Observed ANES 2024 thermometers for the same 100 respondents are the benchmark."
+  },
+  "diagram": "figures/design.svg",
+  "diagram_text": "figures/design.txt"
  },
  "population": {
   "country": "US",
@@ -183,5 +192,56 @@
   }
  ],
  "related": [],
- "released": "2026-10-02"
+ "released": "2026-10-02",
+ "badges": [
+  {
+   "name": "provenance",
+   "label": "provenance",
+   "value": "human reviewed",
+   "color": "green",
+   "href": null
+  },
+  {
+   "name": "sample",
+   "label": "respondents",
+   "value": "synthetic (LLM)",
+   "color": "violet",
+   "href": null
+  },
+  {
+   "name": "review",
+   "label": "review",
+   "value": "unreviewed",
+   "color": "slate",
+   "href": null
+  },
+  {
+   "name": "registration",
+   "label": "plan",
+   "value": "not pre-registered",
+   "color": "red",
+   "href": null
+  },
+  {
+   "name": "release",
+   "label": "status",
+   "value": "released",
+   "color": "green",
+   "href": null
+  },
+  {
+   "name": "design",
+   "label": "design",
+   "value": "methods comparison",
+   "color": "slate",
+   "href": null
+  },
+  {
+   "name": "data",
+   "label": "data",
+   "value": "synthetic",
+   "color": "amber",
+   "href": null
+  }
+ ]
 }

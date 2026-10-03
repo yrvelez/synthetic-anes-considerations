@@ -1,7 +1,11 @@
 # Considerations-Based Synthetic Respondents and the Bisbee et al. (2024) Baseline: ANES 2024 Feeling Thermometers
 
+<!-- fd:badges -->
+![provenance: human reviewed](figures/badges/provenance.svg) ![respondents: synthetic (LLM)](figures/badges/sample.svg) ![review: unreviewed](figures/badges/review.svg) ![plan: not pre-registered](figures/badges/registration.svg) ![status: released](figures/badges/release.svg) ![design: methods comparison](figures/badges/design.svg) ![data: synthetic](figures/badges/data.svg)
+
 > **Provenance: HUMAN REVIEWED — see provenance.human_steps.** Hand-built `methods_comparison` package, filedrawer 0.1.0, 2026-10-02. Human steps recorded: 1. Release status: **released**.
 
+<!-- fd:section id=abstract -->
 ## Summary
 
 Bisbee et al. (2024) show that LLM personas built from ANES respondents' demographics and political
@@ -14,7 +18,12 @@ individual-level error (RMSE 23.5 vs. 24.8; MAE 17.5 vs. 18.1; r = 0.77 vs. 0.74
 considerations pipeline has smaller average bias (−0.04 vs. 2.86 points) and smaller gaps between
 predicted and observed target means (4.3 vs. 5.1 points). Neither approach recovers RFK Jr. well.
 
+<!-- fd:section id=design -->
 ## Design
+
+![Design at a glance](figures/design.svg)
+
+*The respondents in both methods are LLM-generated personas; the benchmark is the same respondents' observed ANES 2024 ratings (see Limitations).*
 
 - **Respondents.** 100 complete-case respondents from the ANES 2024 Time Series Study, each rendered as
   the "full" persona prompt of Bisbee et al. (2024) updated for 2024 (age, marital status, race and
@@ -38,6 +47,7 @@ predicted and observed target means (4.3 vs. 5.1 points). Neither approach recov
   have a valid observed rating (one missing for Joe Biden, one for RFK Jr.); predictions are the mean of the
   two draws. Respondents are weighted equally, so nothing here estimates weighted national quantities.
 
+<!-- fd:section id=results -->
 ## Results
 
 All numbers come from `results/` (rebuilt by `scripts/02_compare.R`) and match the audited outputs in
@@ -73,6 +83,7 @@ draws is 4.3 points for both, with a larger maximum for the considerations pipel
 the ANES records one rating per respondent and target, these figures describe the generators, not
 whether either matches human response instability.
 
+<!-- fd:section id=appendix-runs -->
 ## Earlier runs
 
 `data/raw/` keeps the reports from earlier iterations: a 300-respondent run of both methods
@@ -83,6 +94,7 @@ reports predate the September 2026 audit of the comparison script, which fixed a
 dropped every RFK Jr. row (they report 699 rather than 798 cells). Their numbers are not comparable to the
 results above; the audit and the corrected script are in `data/audit_20260926/`.
 
+<!-- fd:section id=appendix-timing -->
 ## When the runs happened
 
 Times are US Eastern (EDT) and come from the creation and last-modification times of each run's output
@@ -101,6 +113,7 @@ Because `gemini-flash-latest` is an alias, these dates are the best record of wh
 | Comparison script audit | `data/audit_20260926/` | Sep 26, 2026 |
 | Package assembled; `results/` rebuilt from saved outputs | `results/` | Oct 2, 2026 |
 
+<!-- fd:section id=limitations -->
 ## Limitations
 
 - One model family (Gemini Flash), one survey year, one question format, and 100 respondents. The
@@ -113,6 +126,7 @@ Because `gemini-flash-latest` is an alias, these dates are the best record of wh
 - No uncertainty intervals are reported; differences of a point or two in RMSE between methods should not
   be read as reliable.
 
+<!-- fd:section id=appendix -->
 ## Reproducing
 
 Download the ANES 2024 Time Series CSV (see `README.md`) into `external/`, then run
@@ -120,6 +134,7 @@ Download the ANES 2024 Time Series CSV (see `README.md`) into `external/`, then 
 makes no API calls. Regenerating the outputs themselves requires a Gemini API key and the generation
 scripts in `scripts/`.
 
+<!-- fd:section id=related -->
 ## References
 
 American National Election Studies. 2025. *ANES 2024 Time Series Study Full Release* [dataset and documentation]. August 8, 2025 version. https://electionstudies.org

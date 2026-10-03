@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 296" width="100%" role="img" aria-labelledby="fd-title fd-desc"><title id="fd-title">Design: methods comparison</title><desc id="fd-desc">A methods comparison (N = 100 analysed). The respondents are LLM-generated (Gemini (persona generation; exact version recorded in the run files under data/raw)). Methods compared: Direct persona-conditioned thermometer generation (Bisbee et al. 2024 prompt, updated for 2024), Zaller 8-&gt;4: 8 ranked considerations per respondent and target, 4 sampled into each response draw; benchmark: Observed ANES 2024 Time Series pre-election feeling thermometers for the same respondents; metrics: RMSE, MAE, bias, correlation, mean and SD gaps by target, total variation and Wasserstein-1 distance between raw draws and observed ratings, within-respondent draw variation.</desc><style>
+:root{--fd-ink:#1c1b19;--fd-muted:#8a877f;--fd-rule:#d9d5cc;--fd-accent:#8b1e2d;--fd-bg:#ffffff}
+@media (prefers-color-scheme: dark){:root{--fd-ink:#ecebe6;--fd-muted:#b4b1a9;--fd-rule:#4a4a52;--fd-accent:#e08a96;--fd-bg:#1d1d23}}
+.box{fill:var(--fd-bg,#fff);stroke:var(--fd-ink,#1c1b19);stroke-width:1.2}
+.arm{fill:var(--fd-bg,#fff);stroke:var(--fd-accent,#8b1e2d);stroke-width:1.4}
+.soft{fill:var(--fd-bg,#fff);stroke:var(--fd-rule,#d9d5cc);stroke-width:1.2}
+text{font-family:Inter,Helvetica,Arial,sans-serif;fill:var(--fd-ink,#1c1b19);font-size:14px}
+.cap{font-size:12px;fill:var(--fd-muted,#8a877f)}
+.kicker{font-size:11px;letter-spacing:.08em;fill:var(--fd-muted,#8a877f);text-transform:uppercase}
+.edge{stroke:var(--fd-ink,#1c1b19);stroke-width:1.2;fill:none;marker-end:url(#fd-arrow)}
+.assoc{stroke-dasharray:5 4}
+#fd-arrow path{fill:var(--fd-ink,#1c1b19)}
+</style>
+<defs><marker id="fd-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z"/></marker></defs><text class="kicker" x="20" y="16">Design: methods comparison</text>
+<g id="arm-Direct_persona_conditioned_thermometer_generation_Bisbee_et_al_2024_prompt_updated_for_2024_" data-text="Direct persona-conditioned thermometer generation (Bisbee et al. 2024 prompt, updated for 2024)">
+<rect class="arm" x="20" y="30" width="300" height="102" rx="6"/>
+<text class="kicker" x="32" y="52">Method</text>
+<text x="32" y="70">Direct persona-conditioned</text>
+<text x="32" y="88">thermometer generation (Bisbee et</text>
+<text x="32" y="106">al. 2024 prompt, updated for 2024)</text>
+</g>
+<g id="arm-Zaller_8_4_8_ranked_considerations_per_respondent_and_target_4_sampled_into_each_response_draw" data-text="Zaller 8-&gt;4: 8 ranked considerations per respondent and target, 4 sampled into each response draw">
+<rect class="arm" x="20" y="144" width="300" height="120" rx="6"/>
+<text class="kicker" x="32" y="166">Method</text>
+<text x="32" y="184">Zaller 8-&gt;4: 8 ranked</text>
+<text x="32" y="202">considerations per respondent and</text>
+<text x="32" y="220">target, 4 sampled into each</text>
+<text x="32" y="238">response draw</text>
+</g>
+<g>
+<rect class="box" x="400" y="93.0" width="260" height="120" rx="6"/>
+<text class="kicker" x="412" y="115.0">Benchmark</text>
+<text x="412" y="133.0">Observed ANES 2024 Time Series</text>
+<text x="412" y="151.0">pre-election feeling</text>
+<text x="412" y="169.0">thermometers for the same</text>
+<text x="412" y="187.0">respondents</text>
+</g>
+<path class="edge" d="M320,153.0 L396,153.0"/><text class="cap" x="358.0" y="147.0" text-anchor="middle">gap</text>
+<g>
+<rect class="box" x="710" y="93.0" width="230" height="120" rx="6"/>
+<text class="kicker" x="722" y="115.0">Metrics</text>
+<text x="722" y="133.0">RMSE, MAE, bias,</text>
+<text x="722" y="151.0">correlation, mean and SD</text>
+<text x="722" y="169.0">gaps by target, total</text>
+<text x="722" y="187.0">variation and</text>
+</g>
+<path class="edge" d="M660,153.0 L706,153.0"/></svg>
