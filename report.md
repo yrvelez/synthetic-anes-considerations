@@ -8,7 +8,7 @@
 <!-- fd:section id=abstract -->
 ## Summary
 
-Bisbee et al. (2024) show that LLM personas built from ANES respondents' demographics and political
+This is a preliminary test of how considerations might affect silicon sampling. Bisbee et al. (2024) show that LLM personas built from ANES respondents' demographics and political
 predispositions recover average feeling thermometers reasonably well but with too little variation and
 unstable distributions. This package asks whether a response process modeled on Zaller (1992) and
 Zaller and Feldman (1992), in which each answer averages over a small sample of the considerations a

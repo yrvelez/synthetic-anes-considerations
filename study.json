@@ -5,7 +5,7 @@
  "authors": [
   "Yamil R. Velez"
  ],
- "summary": "Compares two ways of generating synthetic ANES 2024 feeling-thermometer ratings with an LLM persona: direct generation following Bisbee et al. (2024), and a considerations-based pipeline after Zaller (1992) that samples 4 of 8 respondent-specific considerations into each response. Across 100 respondents, 8 targets and 2 draws, the baseline has slightly lower error (RMSE 23.5 vs 24.8; r 0.77 vs 0.74); the considerations pipeline has smaller mean bias (-0.04 vs 2.86) and a smaller average gap in target means (4.3 vs 5.1 points).",
+ "summary": "This is a preliminary test of how considerations might affect silicon sampling. Compares two ways of generating synthetic ANES 2024 feeling-thermometer ratings with an LLM persona: direct generation following Bisbee et al. (2024), and a considerations-based pipeline after Zaller (1992) that samples 4 of 8 respondent-specific considerations into each response. Across 100 respondents, 8 targets and 2 draws, the baseline has slightly lower error (RMSE 23.5 vs 24.8; r 0.77 vs 0.74); the considerations pipeline has smaller mean bias (-0.04 vs 2.86) and a smaller average gap in target means (4.3 vs 5.1 points).",
  "created": "2026-10-02",
  "synthetic": false,
  "design": {
