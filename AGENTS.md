@@ -10,7 +10,9 @@ the same respondents' observed ratings. `README.md` has the full layout.
 
 **Data in this repository (read and analyze them directly):**
 - `data/raw/`: the saved model outputs and consideration banks behind every report. Each row is one synthetic
-  rating for one ANES case and target, with the ANES case ID and the persona variables used in the prompt.
+  rating for one ANES case and target, keyed by the ANES case ID (`respID` = ANES `V200001`). The persona
+  variables and the prompts built from them are not included: they are ANES respondents' answers. Rebuild them
+  from the ANES file by case ID (see `scripts/2_API_synth_data_ANES2024_zaller_Gemini.R` for the coding).
 - `results/`: the comparison tables for the primary run (`baseline_zaller_true84_n100_*`): individual-level
   error, distribution metrics and summary, truth coverage.
 - `data/audit_20260926/`: an audit of the comparison script (target-name join, distribution metrics); read

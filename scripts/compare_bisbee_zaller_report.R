@@ -87,6 +87,16 @@ if (!setequal(baseline$respID, zaller$respID) ||
     !setequal(baseline$prompt_type, zaller$prompt_type)) {
   stop("Models must cover the same respondents and prompt type.")
 }
+if (!("PID" %in% names(baseline) && "PID" %in% names(zaller))) {
+  # The released model outputs carry only the ANES case id (ANES data are not redistributed): rebuild party from
+  # the ANES file with the coding the generation scripts used (V241227x: 1-3 Democrat, 4 Independent, 5-7 Republican).
+  pid_anes <- read_csv(anes_file, col_select = c("V200001", "V241227x"), show_col_types = FALSE) %>%
+    transmute(respID = V200001,
+              PID = case_when(V241227x %in% 1:3 ~ "Democrat", V241227x == 4 ~ "Independent",
+                              V241227x %in% 5:7 ~ "Republican", TRUE ~ NA_character_))
+  baseline <- left_join(select(baseline, -any_of("PID")), pid_anes, by = "respID")
+  zaller <- left_join(select(zaller, -any_of("PID")), pid_anes, by = "respID")
+}
 if ("PID" %in% names(baseline) && "PID" %in% names(zaller)) {
   pid_profiles <- bind_rows(baseline, zaller) %>% distinct(respID, PID)
   if (any(is.na(pid_profiles$PID)) || anyDuplicated(pid_profiles$respID)) {

@@ -20,7 +20,9 @@ response process after Zaller (1992), against the same respondents' observed rat
   - `merge_csv_chunks.R`: merges chunked generation runs
 - `results/`: comparison tables and report for the primary run
 - `data/raw/`: saved model outputs and consideration banks for the runs behind every report, plus the
-  earlier comparison reports. Each row carries the ANES case ID and the persona variables used in the prompt.
+  earlier comparison reports. Rows carry the ANES case ID (`respID`, ANES `V200001`) but not the respondents'
+  ANES answers: the persona variables and the prompts built from them are left out, and `scripts/` rebuilds
+  party (`V241227x`) from the ANES file for the subgroup tables.
 - `data/audit_20260926/`: audit of the comparison script (target-name join, distribution metrics) with
   its outputs; see `RELABEL_NOTE.md` there
 - `original/bisbee_et_al_2024/`: scripts from the Bisbee et al. (2024) replication materials, for reference
